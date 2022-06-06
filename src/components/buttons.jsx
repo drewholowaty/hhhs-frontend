@@ -9,4 +9,13 @@ export const IntroButton = ({ label, to }) => (
       {label}
     </Link>
   );
-  
+
+
+  export const TextButton = ({ label, to }) => (
+    <Link
+      className="flex font-medium text-secondary mx-5"
+      to={to}
+    >
+      {label}
+    </Link>
+  );

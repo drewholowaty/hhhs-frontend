@@ -5,7 +5,8 @@ import {
   Route,
 } from "react-router-dom";
 import App from "./App";
-import IntroScreen from "./routes/intro/IntroScreen";
+import LoginScreen from "./routes/intro/login/LoginScreen";
+import HomeScreen from "./routes/app/HomeScreen";
 
 
 const root = ReactDOM.createRoot(
@@ -15,7 +16,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="intro/IntroScreen" element={<IntroScreen />} />
+      <Route path="intro/login/LoginScreen" element={<LoginScreen />} />
+      <Route path="app/HomeScreen" element={<HomeScreen />} />
     </Routes>
   </BrowserRouter>
 );
