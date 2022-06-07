@@ -1,6 +1,8 @@
-import { Link, Outlet } from "react-router-dom";
+import React from "react";
+
 import "./input.css";
-import {IntroButton} from "./components/buttons";
+
+import { IntroButton } from "./components/buttons";
 
 function App() {
   return (
@@ -11,11 +13,10 @@ function App() {
           src="https://hhhs-app-resources.s3.us-east-2.amazonaws.com/hhhs_logo.png"
           alt="Logo"
         />
-      </div>  
+      </div>
       <IntroButton label="Login" to="intro/login/LoginScreen"></IntroButton>
       <IntroButton label="Sign Up" to="intro/IntroScreen"></IntroButton>
       <IntroButton label="Guest" to="intro/IntroScreen"></IntroButton>
-      
     </div>
   );
 }

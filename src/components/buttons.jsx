@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-router-dom";
 
 export const IntroButton = ({ label, to }) => (
@@ -10,12 +10,8 @@ export const IntroButton = ({ label, to }) => (
   </Link>
 );
 
-
 export const TextButton = ({ label, to }) => (
-  <Link
-    className="flex font-medium text-secondary mx-5"
-    to={to}
-  >
+  <Link className="flex font-medium text-secondary mx-5" to={to}>
     {label}
   </Link>
 );
