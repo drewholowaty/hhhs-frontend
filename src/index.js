@@ -8,7 +8,7 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import App from "./App";
-// import LoginScreen from "./routes/intro/login/LoginScreen";
+import RegistryHomeScreen from "./routes/registry/registryHomeScreen";
 // import HomeScreen from "./routes/app/HomeScreen";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -17,8 +17,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        {/* <Route path="intro/login/LoginScreen" element={<LoginScreen />} />
-        <Route path="app/HomeScreen" element={<HomeScreen />} /> */}
+        <Route path="registry" element={<RegistryHomeScreen />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
