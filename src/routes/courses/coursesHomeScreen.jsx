@@ -1,6 +1,6 @@
 import React from "react";
 
-function EducationHomeScreen() {
+function CoursesHomeScreen() {
     return (
       <div className="flex flex-col items-center py-2 px-4">
         <div className="container flex justify-center flex-col mt-2 mb-20">
@@ -11,4 +11,4 @@ function EducationHomeScreen() {
     );
   }
   
-  export default EducationHomeScreen;
+  export default CoursesHomeScreen;
